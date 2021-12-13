@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kla Klouk</title>
+	<script type = "text/javascript" src="js/js.js"></script>
+	<link rel="stylesheet" href="css/css.css"/>
+</head>
+<body>
+	<div id="table">
+		<table border="1px" width="815px" height="600px">
+			<tr>
+				<td >
+					<div id="img" onclick="addkla()">
+						<img src="image/1.jpg"/>
+					</div>
+					<div id="amount">
+						<span id="kla">0</span>រៀល
+					</div>
+					
+				</td>
+				<td>
+					<div id="img" onclick="addklouk()">
+						<img src="image/2.jpg"/>
+					</div>
+					<div id="amount">
+						<span id="klouk">0</span>រៀល
+					</div>
+				</td>
+				<td>
+					<div id="img" onclick="addchicken()">
+						<img src="image/3.jpg"/>
+					</div>
+					<div id="amount">
+						<span id="chicken">0</span>រៀល
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div id="img" onclick="addlobster()">
+						<img src="image/4.jpg"/>
+					</div>
+					<div id="amount">
+						<span id="lobster">0</span> រៀល
+					</div>
+				</td>
+				<td>
+					<div id="img" onclick="addcrab()">
+						<img src="image/5.jpg"/>
+					</div>
+					<div id="amount">
+						<span id="crab">0</span>រៀល
+					</div>
+				</td>
+				<td> 
+					<div id="img" onclick="addfish()">
+						<img src="image/6.jpg"/>
+					</div>
+					<div id="amount">
+						<span id="fish">0</span>រៀល
+					</div>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div id="money">
+	<br/><br/><br/>
+		 ទឹកប្រាក់ : <span id="m" >10000</span> រៀល		
+	</div>
+	<div id="dice_box">
+		<div id="dice">
+			<img src="image/1.jpg" id="myimage1"/>
+		</div>
+		<div id="dice">
+			<img src="image/1.jpg" id="myimage2"/>
+		</div>
+		<div id="dice">
+			<img src="image/1.jpg" id="myimage3"/>
+		</div>
+
+		<div id="btn">
+			<input type="button" id="btnc" value="ក្រឡុក" onclick="start()" />
+			<input type="button" id="btnac" value="បញ្ឈប់" onclick="stop()" />
+		</div>
+	</div>
+</body>
+</html>
